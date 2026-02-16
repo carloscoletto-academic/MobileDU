@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvContrastTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Texto / Fonte"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <!-- Tamanho da Fonte -->
+        <TextView
+            android:id="@+id/tvFontSizeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tamanho"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarFontSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="30"
+            android:min="12" />
+
+        <TextView
+            android:id="@+id/tvFontSizeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="16"
+            android:textSize="16sp" />
+
+        <!-- Cor do Texto -->
+        <TextView
+            android:id="@+id/tvTextColorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Cor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layoutColorButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/spinner_border"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnColorBlack"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_black_border"
+                android:contentDescription="Preto"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnColorWhite"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_white_border"
+                android:layout_marginStart="8dp"
+                android:contentDescription="Branco"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnColorRed"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/btn_red_border"
+                android:contentDescription="Vermelho"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnColorBlue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/btn_blue_border"
+                android:contentDescription="Azul"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnColorPicker"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="20sp"
+                android:background="@drawable/btn_gray_border"
+                android:textColor="@android:color/black"
+                android:text="⋯"
+                android:contentDescription="Escolher outra cor" />
+        </LinearLayout>
+
+        <!-- Fonte -->
+        <TextView
+            android:id="@+id/tvFontTypeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Tipo"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerFontType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_border" />
+
+        <!-- Preview -->
+        <TextView
+            android:id="@+id/tvPreview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Exemplo de pré-visualização do texto"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:padding="16dp" />
+
+        <!-- Ações com ConstraintLayout para responsividade -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:text="Restaurar"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/btnCancel"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.3" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:text="Cancelar"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/white"
+                app:layout_constraintStart_toEndOf="@id/btnReset"
+                app:layout_constraintEnd_toStartOf="@id/btnSave"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.3" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:text="Salvar"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/white"
+                app:layout_constraintStart_toEndOf="@id/btnCancel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
