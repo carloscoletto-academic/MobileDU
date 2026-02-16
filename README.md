@@ -1,6 +1,6 @@
 # MobileDU
 Este repositório reúne os materiais relacionados à tese de doutorado intitulada: 
-“Diretrizes para o Desenvolvimento de Aplicações Móveis Voltadas para o Desenho Universal: a Biblioteca MobileDU”
+“Diretrizes para o Desenvolvimento de Aplicações Móveis Voltadas para o Desenho Universal: a Biblioteca MobileDU” de autoria de Carlos Jair Coletto, sob a orientação da Profa. Juliana Cristina Braga,  na Universidade Federal do ABC.
 
 O projeto apresenta diretrizes conceituais, arquiteturais e técnicas para o desenvolvimento de aplicações móveis acessíveis, fundamentadas nos princípios do Desenho Universal e nas recomendações contemporâneas de acessibilidade digital.
 
