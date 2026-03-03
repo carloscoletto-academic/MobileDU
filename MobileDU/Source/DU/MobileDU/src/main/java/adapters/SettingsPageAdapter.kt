@@ -16,11 +16,12 @@ class SettingsPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(a
             0 -> TextSettingsFragment()           // Texto
             1 -> EnvironmentSettingsFragment()    // Ambiente
             2 -> SoundSettingsFragment()          // Som
-            3 -> ContrastSettingsFragment()       //Contraste
-//            3 -> VideoSettingsFragment()          // Vídeo
-//            4 -> InputSettingsFragment()          // Entrada
-//            5 -> NotificationsSettingsFragment()  // Notificações
-//            6 -> GestureSettingsFragment()       // Gestos
+            3 -> ContrastSettingsFragment()       // Contraste
+
+//            4 -> VideoSettingsFragment()          // Vídeo
+//            5 -> InputSettingsFragment()          // Entrada
+//            6 -> NotificationsSettingsFragment()  // Notificações
+//            7 -> GestureSettingsFragment()       // Gestos
             else -> Fragment()
         }
     }
