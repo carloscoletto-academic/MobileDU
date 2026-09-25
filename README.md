@@ -1,14 +1,33 @@
 # MobileDU
-Este repositório reúne os materiais relacionados à tese de doutorado intitulada: 
-“Diretrizes para o Desenvolvimento de Aplicações Móveis Voltadas para o Desenho Universal: a Biblioteca MobileDU” de autoria de Carlos Jair Coletto, sob a orientação da Profa. Juliana Cristina Braga,  na Universidade Federal do ABC.
 
-O projeto apresenta diretrizes conceituais, arquiteturais e técnicas para o desenvolvimento de aplicações móveis acessíveis, fundamentadas nos princípios do Desenho Universal e nas recomendações contemporâneas de acessibilidade digital.
+Este repositório foi criado originalmente para disponibilização acadêmica
+do código-fonte da biblioteca MobileDU, desenvolvida no contexto da tese
+de doutorado:
 
-O repositório inclui: Documentos da tese (manuscrito, apêndices e anexos), Planilhas e conjuntos de dados utilizados na pesquisa, Scripts SQL, Código-fonte da biblioteca MobileDU, Materiais de apoio e documentação complementar
+**Diretrizes para o Desenvolvimento de Aplicações Móveis Voltadas para
+o Desenho Universal: A Biblioteca MobileDU**
 
+**Autor:** Carlos Jair Coletto  
+**Universidade Federal do ABC (UFABC)**  
+**Ano:** 2026
 
-A biblioteca MobileDU foi concebida para apoiar desenvolvedores na incorporação sistemática de recursos de acessibilidade em aplicações móveis, promovendo: Inclusão digital, Aderência a princípios de Desenho Universal, Padronização de práticas acessíveis, Reutilização de componentes de software, etc
+## Repositório oficial da MobileDU
 
-A MobileDU consiste em um conjunto de componentes e recursos reutilizáveis voltados à implementação de funcionalidades de acessibilidade em aplicações móveis, com foco em: Configurações adaptativas, Ajustes visuais e sonoros , Estrutura modular e extensível
+Para evitar a manutenção de versões duplicadas do código-fonte, o
+desenvolvimento, a manutenção e a distribuição da biblioteca MobileDU
+estão centralizados no repositório oficial:
 
-Este repositório é disponibilizado para fins acadêmicos e científicos. Desenvolvedores e pesquisadores são convidados a utilizar, adaptar, aprimorar e dar continuidade ao projeto, respeitando os termos de licenciamento indicados.
+https://github.com/CarlosColetto/MobileDU
+
+O repositório oficial contém a versão atualizada do código-fonte,
+o histórico de desenvolvimento e as versões disponibilizadas da
+biblioteca.
+
+Este repositório acadêmico é mantido para preservar o endereço
+referenciado na tese e direcionar pesquisadores e desenvolvedores
+para a versão oficial da MobileDU.
+
+## Código anteriormente disponibilizado neste repositório
+
+O histórico de commits deste repositório preserva as versões anteriormente
+disponibilizadas neste endereço.
