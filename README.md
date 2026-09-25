@@ -27,6 +27,9 @@ Este repositório acadêmico é mantido para preservar o endereço
 referenciado na tese e direcionar pesquisadores e desenvolvedores
 para a versão oficial da MobileDU.
 
+não continue atualizando o código do repositório acadêmico para acompanhar o de desenvolvimento. 
+A partir de agora, novas correções e funcionalidades deveriam ir para CarlosColetto/MobileDU.
+
 ## Código anteriormente disponibilizado neste repositório
 
 O histórico de commits deste repositório preserva as versões anteriormente
