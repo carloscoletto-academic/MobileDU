@@ -1,4 +1,4 @@
-# MobileDU
+# MobileDU (ATENÇÃO ! Importante)
 
 Este repositório foi criado originalmente para disponibilização acadêmica
 do código-fonte da biblioteca MobileDU, desenvolvida no contexto da tese
